@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1.1.1 什么是互联网产品？ - AI编程时代产品经理入门教程</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.8; color: #333; background: #f8f9fa; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .header { background: #fff; border-radius: 12px; padding: 40px; margin-bottom: 30px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        .header h1 { color: #1a1a1a; font-size: 28px; margin-bottom: 20px; }
+        .header .meta { color: #666; font-size: 14px; background: #f0f7ff; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        .content { background: #fff; border-radius: 12px; padding: 40px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        h2 { color: #1a1a1a; font-size: 24px; margin: 40px 0 20px; padding-bottom: 10px; border-bottom: 2px solid #e8e8e8; }
+        h3 { color: #333; font-size: 20px; margin: 30px 0 15px; }
+        p { margin: 15px 0; color: #444; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #e8e8e8; }
+        th { background: #f8f9fa; font-weight: 600; color: #333; }
+        td { color: #555; }
+        ul, ol { margin: 15px 0; padding-left: 25px; }
+        li { margin: 8px 0; }
+        .highlight { background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffc107; margin: 20px 0; }
+        .case-study { background: #e8f5e9; padding: 20px; border-radius: 8px; border-left: 4px solid #4caf50; margin: 20px 0; }
+        .case-study h4 { color: #2e7d32; margin-bottom: 10px; }
+        .questions { background: #e3f2fd; padding: 20px; border-radius: 8px; border-left: 4px solid #2196f3; margin: 20px 0; }
+        .questions h4 { color: #1565c0; margin-bottom: 10px; }
+        .links { background: #f3e5f5; padding: 20px; border-radius: 8px; border-left: 4px solid #9c27b0; margin: 30px 0; }
+        .links a { color: #7b1fa2; text-decoration: none; display: block; margin: 8px 0; }
+        .links a:hover { text-decoration: underline; }
+        .footer { text-align: center; padding: 30px 0; color: #999; font-size: 14px; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-family: 'Consolas', monospace; font-size: 14px; }
+        pre { background: #282c34; color: #abb2bf; padding: 20px; border-radius: 8px; overflow-x: auto; margin: 20px 0; }
+        pre code { background: none; padding: 0; color: inherit; }
+        .nav-links { display: flex; justify-content: space-between; margin-top: 30px; padding-top: 20px; border-top: 1px solid #e8e8e8; }
+        .nav-links a { color: #1890ff; text-decoration: none; padding: 10px 20px; border-radius: 6px; background: #f0f7ff; }
+        .nav-links a:hover { background: #e6f4ff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>1.1.1 什么是互联网产品？</h1>
+            <div class="meta">
+                <p><strong>所属模块</strong>：模块一 · 互联网产品基础认知</p>
+                <p><strong>学习难度</strong>：★★☆☆☆（入门级）</p>
+                <p><strong>建议学时</strong>：2小时</p>
+                <p><strong>前置知识</strong>：无</p>
+                <p><strong>后续学习</strong>：1.1.2 产品生命周期 | 1.1.3 典型产品架构分层</p>
+            </div>
+        </div>
+
+        <div class="content">
+            <h2>🎯 学习目标</h2>
+            <p>完成本节学习后，你将能够：</p>
+            <ol>
+                <li>准确定义"互联网产品"的概念，理解其核心特征</li>
+                <li>区分四大互联网产品类型：Web产品、移动App、小程序、SaaS平台</li>
+                <li>掌握判断一个产品是否属于"互联网产品"的关键标准</li>
+                <li>能够结合实际案例，分析不同互联网产品的定位与特点</li>
+            </ol>
+
+            <h2>📖 核心内容</h2>
+            
+            <h3>一、互联网产品的定义</h3>
+            <p><strong>互联网产品</strong>是指依托互联网技术，通过网络为用户提供服务或价值的数字化产品。它不仅仅是一个网站或一个App，而是包含前端界面、后端服务、数据流转和用户交互在内的完整系统。</p>
+            
+            <div class="highlight">
+                <p><strong>通俗理解</strong>：互联网产品就像一家"线上商店"——前端是顾客看到的店面和货架（页面、按钮、布局），后端是仓库和员工管理系统（数据存储、订单处理），网络是连接顾客和商店的道路，而产品经理就是这家商店的设计师和运营者。</p>
+            </div>
+
+            <h3>二、互联网产品的核心特征</h3>
+            <table>
+                <tr><th>特征</th><th>说明</th><th>对比传统产品</th></tr>
+                <tr><td><strong>数字化</strong></td><td>以代码和数据形式存在，无实体形态</td><td>传统产品是实物（如手机、家具）</td></tr>
+                <tr><td><strong>可迭代</strong></td><td>可以随时更新升级，无需召回</td><td>传统产品售出后难以修改</td></tr>
+                <tr><td><strong>数据驱动</strong></td><td>用户行为可追踪、可分析、可优化</td><td>传统产品难以获取用户使用数据</td></tr>
+                <tr><td><strong>网络效应</strong></td><td>用户越多，产品价值越大（如微信）</td><td>传统产品价值相对固定</td></tr>
+                <tr><td><strong>边际成本低</strong></td><td>新增一个用户的成本趋近于零</td><td>传统产品每多生产一个都有成本</td></tr>
+                <tr><td><strong>快速试错</strong></td><td>可以快速上线测试，根据反馈调整</td><td>传统产品试错成本高、周期长</td></tr>
+            </table>
+
+            <h3>三、四大互联网产品类型</h3>
+
+            <h4>1. Web产品（网页产品）</h4>
+            <p><strong>定义</strong>：通过浏览器访问的互联网产品，无需下载安装，打开网址即可使用。</p>
+            <p><strong>技术特征</strong>：</p>
+            <ul>
+                <li>基于浏览器运行，依赖HTML、CSS、JavaScript</li>
+                <li>跨平台：电脑、手机、平板都能访问</li>
+                <li>更新即时：服务器更新后所有用户立刻看到新版本</li>
+            </ul>
+            <p><strong>典型产品</strong>：知乎、百度百科、腾讯文档、淘宝网页版</p>
+
+            <h4>2. 移动App（原生应用）</h4>
+            <p><strong>定义</strong>：需要下载并安装到手机上的应用程序，针对特定操作系统（iOS或Android）开发。</p>
+            <p><strong>技术特征</strong>：</p>
+            <ul>
+                <li>iOS使用Swift或Objective-C开发，Android使用Kotlin或Java开发</li>
+                <li>可以直接调用手机硬件：摄像头、麦克风、GPS、指纹等</li>
+                <li>性能优秀，用户体验流畅</li>
+            </ul>
+            <p><strong>典型产品</strong>：微信、抖音、高德地图、支付宝</p>
+
+            <h4>3. 小程序</h4>
+            <p><strong>定义</strong>：依附于超级App（如微信、支付宝）的轻量级应用，无需独立下载，扫码或搜索即可使用。</p>
+            <p><strong>技术特征</strong>：</p>
+            <ul>
+                <li>运行在宿主App的沙箱环境中，有严格的权限限制</li>
+                <li>开发语言类似Web技术，但有平台特定的API</li>
+                <li>体积小（微信小程序限制2MB以内）</li>
+            </ul>
+            <p><strong>典型产品</strong>：美团外卖小程序、拼多多小程序、乘车码</p>
+
+            <h4>4. SaaS平台（软件即服务）</h4>
+            <p><strong>定义</strong>：通过互联网提供的软件服务，用户按订阅付费，无需自行部署服务器或安装软件。</p>
+            <p><strong>技术特征</strong>：</p>
+            <ul>
+                <li>多租户架构：一套系统服务多个客户，数据隔离</li>
+                <li>持续交付：功能持续更新，用户始终使用最新版本</li>
+                <li>云端部署：服务商负责服务器、数据库、安全防护</li>
+            </ul>
+            <p><strong>典型产品</strong>：飞书、钉钉、企业微信、Salesforce</p>
+
+            <h3>四、四种产品类型的横向对比</h3>
+            <table>
+                <tr><th>维度</th><th>Web产品</th><th>移动App</th><th>小程序</th><th>SaaS平台</th></tr>
+                <tr><td><strong>获客方式</strong></td><td>搜索引擎、链接分享</td><td>应用商店、推广下载</td><td>扫码、搜索、分享</td><td>销售拓展、内容营销</td></tr>
+                <tr><td><strong>开发成本</strong></td><td>低</td><td>高（双端开发）</td><td>中</td><td>高（企业级需求）</td></tr>
+                <tr><td><strong>用户体验</strong></td><td>中</td><td>最佳</td><td>良好</td><td>良好（偏功能）</td></tr>
+                <tr><td><strong>功能丰富度</strong></td><td>中</td><td>最丰富</td><td>有限（轻量）</td><td>丰富（企业级）</td></tr>
+                <tr><td><strong>更新频率</strong></td><td>随时更新</td><td>需用户更新</td><td>随时更新</td><td>随时更新</td></tr>
+                <tr><td><strong>用户留存</strong></td><td>低（用完即走）</td><td>高（沉没成本）</td><td>中（依赖宿主）</td><td>高（订阅绑定）</td></tr>
+            </table>
+
+            <div class="case-study">
+                <h4>📦 案例：滴滴出行的多端产品矩阵</h4>
+                <p><strong>背景</strong>：滴滴出行作为国内最大的出行平台，需要覆盖尽可能多的用户场景。</p>
+                <table>
+                    <tr><th>产品类型</th><th>定位</th><th>核心功能</th><th>目标用户</th></tr>
+                    <tr><td><strong>移动App</strong></td><td>主阵地，完整体验</td><td>全功能打车、代驾、顺风车、会员体系</td><td>高频出行用户</td></tr>
+                    <tr><td><strong>微信小程序</strong></td><td>轻量入口，降低门槛</td><td>快速叫车、行程分享、基础支付</td><td>低频用户、老年用户</td></tr>
+                    <tr><td><strong>支付宝小程序</strong></td><td>渠道补充</td><td>叫车、支付</td><td>支付宝活跃用户</td></tr>
+                    <tr><td><strong>Web产品</strong></td><td>品牌展示、企业客户</td><td>企业用车管理、发票管理</td><td>企业客户</td></tr>
+                </table>
+                <p><strong>启示</strong>：一个产品可以同时以多种形态存在，针对不同用户群体和使用场景设计不同产品形态。</p>
+            </div>
+
+            <div class="case-study">
+                <h4>📦 案例：拼多多的小程序+App双引擎策略</h4>
+                <p><strong>策略演变</strong>：</p>
+                <ol>
+                    <li><strong>初期（2015-2017）</strong>：纯小程序策略，依托微信社交关系链裂变增长</li>
+                    <li><strong>成长期（2017-2019）</strong>：大力推广App下载，通过补贴引导用户迁移</li>
+                    <li><strong>成熟期（2019至今）</strong>：App为主阵地，小程序作为获客补充</li>
+                </ol>
+                <p><strong>启示</strong>：产品形态会随着发展阶段和战略目标变化，需要灵活调整。</p>
+            </div>
+
+            <div class="questions">
+                <h4>📝 思考问题</h4>
+                <ol>
+                    <li>如果你要设计一个"在线健身"产品，你会选择哪种产品形态？为什么？请列出至少3个理由。</li>
+                    <li>微信同时拥有App、小程序、Web版，请分析这三种形态分别解决了什么用户场景？</li>
+                    <li>为什么说"边际成本低"是互联网产品区别于传统产品的关键特征？请举例说明。</li>
+                    <li>一个外卖平台为什么既要开发用户端App，也要开发骑手端App和商家端后台？它们分别属于什么产品类型？</li>
+                </ol>
+            </div>
+
+            <div class="links">
+                <h4>🔗 相关链接</h4>
+                <a href="../../README.md">📚 返回总目录</a>
+                <a href="1-1-2-产品生命周期.html">👉 下一节：1.1.2 产品生命周期</a>
+                <a href="1-1-3-典型产品架构分层.html">🔗 相关：1.1.3 典型产品架构分层</a>
+                <a href="../module02/2-4-1-原生开发Native.html">🔗 相关：2.4 移动端开发模式对比</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>本教程为《AI编程时代产品经理入门》系列教材的一部分。</p>
+            <p>© 2026 AI编程时代产品经理入门教程</p>
+        </div>
+    </div>
+</body>
+</html>
